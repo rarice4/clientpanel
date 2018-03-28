@@ -17,7 +17,6 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 
 import { ClientDetailsComponent } from './components/client-details/client-details.component';
 
-
 const routes:Routes=[
   {path: '', component: DashboardComponent},
   {path: 'login', component: LoginComponent},

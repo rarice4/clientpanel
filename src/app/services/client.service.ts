@@ -26,4 +26,8 @@ client: Observable<Client>;
      });
      return this.clients;
    }
+
+   newClient(client:Client){
+     this.clientsCollection.add(client);
+   }
 }
